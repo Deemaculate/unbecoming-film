@@ -39,6 +39,7 @@ body{
   flex-wrap: nowrap;
   justify-content: space-evenly;
   
+  
 
 
 
@@ -47,7 +48,7 @@ body{
  
 }
 
-.box {}
+.box {
   max-width: 33.33%;
   max-height: 33.33%;
   justify-items: stretch;
@@ -55,5 +56,13 @@ body{
  
 
  
+}
+
+.images{
+
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
 }
 
