@@ -23,6 +23,8 @@ body{
 
 
 .container{
+  display: flex;
+  flex-direction: row;
     width: 67.33%;
     height: 90.33%;
   display: flex;
@@ -62,7 +64,7 @@ body{
 }
 
 
-s
+
 
 h1{
 
@@ -72,3 +74,9 @@ h1{
    
     border: darkmagenta;
 }
+
+
+.navbar-brand{
+  font-size: 4vh;
+  
+  }
